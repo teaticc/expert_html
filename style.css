@@ -88,6 +88,9 @@ hr {
 input, select {
   vertical-align: middle; }
 
+@font-face {
+  font-family: "texgyreadventor-bold";
+  src: url("fonts/texgyreadventor-bold.otf"); }
 header {
   width: 1440px;
   z-index: 0;
@@ -97,17 +100,34 @@ div.top-image__big {
   width: 910px;
   height: 580px;
   box-shadow: -24px -24px #FFEC00;
-  margin: 184px 146px 110px 370px;
+  margin: 134px 146px 110px 370px;
   position: relative; }
 
 .top-image__left {
   position: absolute;
   z-index: 1;
-  top: 250px;
+  top: 140px;
   left: 170px; }
   .top-image__left img {
     width: 430px;
-    height: 160px; }
+    height: 160px;
+    border: 3px solid black;
+    padding: 14px; }
+
+div.top-image__left__under p {
+  font-family: texgyreadventor-bold; }
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block; }
+
+.top-image__big__arrow__left {
+  float: left;
+  left: 40px; }
+
+.top-image__big__arrow__right {
+  float: right; }
 
 div.contents {
   color: blue;
@@ -118,6 +138,11 @@ h2 {
 
 .contents__regist-link {
   box-shadow: -4px -4px #FFEC00; }
+
+.top-image__left__under {
+  color: #000000;
+  font-size: 26px;
+  font-family: tex gyre adventor bold; }
 
 footer {
   font-size: 30px; }
