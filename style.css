@@ -89,7 +89,7 @@ input, select {
   vertical-align: middle; }
 
 header {
-  font-size: 5px; }
+  width: 1100px; }
 
 div.contents {
   color: red;
