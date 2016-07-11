@@ -105,7 +105,7 @@ div.top-image__big {
 
 .top-image__left {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top: 140px;
   left: 170px; }
   .top-image__left img {
@@ -122,12 +122,34 @@ div.top-image__left__under p {
   clear: both;
   display: block; }
 
+div.top-image__big__arrow {
+  z-index: 1;
+  width: 910px;
+  position: absolute;
+  top: 305px; }
+
 .top-image__big__arrow__left {
-  float: left;
-  left: 40px; }
+  margin-left: 40px;
+  float: left; }
+  .top-image__big__arrow__left img {
+    height: 60px;
+    display: block; }
 
 .top-image__big__arrow__right {
-  float: right; }
+  float: right;
+  margin-right: 40px; }
+  .top-image__big__arrow__right img {
+    height: 60px;
+    display: block; }
+
+.top-image__big__under {
+  width: 890px;
+  height: 75px;
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.4); }
 
 div.contents {
   color: blue;
