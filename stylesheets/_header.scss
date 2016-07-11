@@ -1,8 +1,24 @@
 header{
-  width: 1240px;
+  width: 1440px;
+  z-index: 0;
+  position: relative
 }
 
 div.top-image__big{
+  width: 910px;
+  height: 580px;
   box-shadow: -24px -24px #FFEC00;
-  margin: 110px 170px 110px 146px;
+  margin: 184px 146px 110px 370px;
+  position: relative;
+}
+
+.top-image__left{
+  position:absolute;
+  z-index: 1;
+  top:250px;
+  left: 170px;
+  img{
+    width: 430px;
+    height: 160px;
+  }
 }
