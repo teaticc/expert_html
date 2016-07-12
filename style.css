@@ -235,27 +235,62 @@ div.top-image__big__arrow {
         border: none;
         margin-left: 0; }
 
-.contents__logo:after {
-  content: '';
-  display: block;
-  clear: both; }
-.contents__logo .contents__logol {
-  float: left; }
-  .contents__logo .contents__logol p.contents__logol__1 {
-    font-size: 20px; }
-  .contents__logo .contents__logol p.contents__logol__2 {
-    font-size: 50px; }
-.contents__logo .contents__logor {
-  float: right; }
-  .contents__logo .contents__logor p.contents__logor__1 {
-    font-size: 30px; }
-  .contents__logo .contents__logor p.contents__logor__2 {
-    text-shadow: -2px -2px yellow;
-    margin: 80px 80px;
-    height: 70px;
-    width: 526px;
-    font-size: 70px;
-    font-family: texgyreadventor-bold; }
+.contents__logo {
+  margin-left: 60px; }
+  .contents__logo:after {
+    content: '';
+    display: block;
+    clear: both; }
+  .contents__logo .contents__logo__l {
+    margin-top: 30px;
+    float: left;
+    font-family: texgyreadventor-regular; }
+    .contents__logo .contents__logo__l p.contents__logo__l__1 {
+      font-size: 20px; }
+    .contents__logo .contents__logo__l p.contents__logo__l__2 {
+      margin-top: 21px;
+      font-size: 50px; }
+  .contents__logo .contents__logo__r {
+    float: left;
+    margin-left: 15px;
+    margin-top: 35px; }
+    .contents__logo .contents__logo__r p.contents__logo__r__1 {
+      color: brown;
+      font-size: 30px; }
+    .contents__logo .contents__logo__r p.contents__logo__r__2 {
+      text-shadow: -2px -2px yellow;
+      height: 70px;
+      width: 526px;
+      font-size: 70px;
+      font-family: texgyreadventor-bold; }
+
+.contents__main {
+  margin-top: 80px; }
+  .contents__main__product {
+    width: 340px;
+    height: 315px;
+    padding: 8px; }
+    .contents__main__product div {
+      border: 1px solid #f1f1f1;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 340px; }
+      .contents__main__product div img {
+        height: 240px; }
+      .contents__main__product div h3 {
+        font-size: 16px;
+        color: #413531;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 16px;
+        font-family: helvetica-bold; }
+      .contents__main__product div p {
+        font-size: 16px;
+        color: #685f5c;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        font-family: helvetica; }
 
 .contents__regist-link {
   box-shadow: -4px -4px #FFEC00; }
