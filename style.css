@@ -90,7 +90,9 @@ input, select {
 
 @font-face {
   font-family: "texgyreadventor-bold";
-  src: url("fonts/texgyreadventor-bold.otf"); }
+  src: url("fonts/texgyreadventor-bold.otf");
+  font-family: "texgyreadventor-regular";
+  src: url("texgyreadventor-regular.otf"); }
 header {
   width: 1440px;
   z-index: 0;
@@ -117,11 +119,6 @@ div.top-image__big {
 div.top-image__left__under p {
   font-family: texgyreadventor-bold; }
 
-.clearfix:after {
-  content: "";
-  clear: both;
-  display: block; }
-
 div.top-image__big__arrow {
   z-index: 1;
   width: 910px;
@@ -144,12 +141,37 @@ div.top-image__big__arrow {
 
 .top-image__big__under {
   width: 890px;
-  height: 75px;
+  height: 35px;
   position: absolute;
   bottom: 0px;
   padding: 20px;
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0.4); }
+  .top-image__big__under p {
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+    font-family: texgyreadventor-regular;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+div.top-menu {
+  width: 1100px;
+  height: 230px;
+  background-color: white;
+  z-index: 0; }
+  clear
+  div.top-menu__top {
+    z-index: 1; }
+    clear
+    div.top-menu__top__title {
+      float: left;
+      display: inline; }
+    clear
+    div.top-menu__top__link {
+      float: right; }
 
 div.contents {
   color: blue;
