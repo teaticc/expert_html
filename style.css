@@ -92,7 +92,9 @@ input, select {
   font-family: "texgyreadventor-bold";
   src: url("fonts/texgyreadventor-bold.otf");
   font-family: "texgyreadventor-regular";
-  src: url("texgyreadventor-regular.otf"); }
+  src: url("texgyreadventor-regular.otf");
+  font-family: "FreestyleScriptStd";
+  src: url("FreestyleScriptStd.otf"); }
 header {
   width: 1440px;
   z-index: 0;
@@ -157,21 +159,52 @@ div.top-image__big__arrow {
     bottom: 0;
     margin: auto; }
 
-div.top-menu {
+.top-menu {
   width: 1100px;
   height: 230px;
+  margin: 110px 170px 0;
   background-color: white;
   z-index: 0; }
-  clear
-  div.top-menu__top {
+  .top-menu__top {
+    height: 54px;
     z-index: 1; }
-    clear
-    div.top-menu__top__title {
+    .top-menu__top__title {
       float: left;
-      display: inline; }
-    clear
-    div.top-menu__top__link {
+      display: inline;
+      font-family: FreestyleScriptStd; }
+    .top-menu__top__link {
       float: right; }
+      .top-menu__top__link p img {
+        width: 12px;
+        height: 12px; }
+  .top-menu__under {
+    margin: 40px; }
+    .top-menu__under__sentence {
+      float: left; }
+    .top-menu__under__tag {
+      float: right; }
+      .top-menu__under__tag__link__find-by {
+        font-size: 22px;
+        color: #d3d3d3;
+        font-family: texgyreadventor-regular; }
+      .top-menu__under__tag__link li {
+        height: 60px;
+        width: 183px;
+        list-style: none;
+        float: left;
+        font-size: 24px;
+        font-family: texgyreadventor-regular;
+        border: 3px solid black;
+        margin-top: 15px;
+        margin-left: 30px;
+        box-sizing: border-box;
+        text-align: center; }
+      .top-menu__under__tag__link li.top-menu__under__tag__link--yellow {
+        width: 240px;
+        background-color: #FFEC00;
+        font-family: texgyreadventor-regular-bold;
+        border: none;
+        margin-left: 0; }
 
 div.contents {
   color: blue;
