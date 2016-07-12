@@ -1,0 +1,43 @@
+
+.contents__logo{
+  @include clearfix;
+  .contents__logol{
+   float: left;
+   p.contents__logol__1{
+    font-size: 20px;
+
+   }
+   p.contents__logol__2{
+    font-size: 50px;
+   }
+  }
+  .contents__logor{
+    float: right;
+    
+
+    p.contents__logor__1{
+      font-size: 30px;
+    }
+
+    p.contents__logor__2 {
+     text-shadow: -2px -2px yellow;
+     margin: 80px 80px;
+     height: 70px;
+     width: 526px;
+     font-size: 70px;
+     font-family: texgyreadventor-bold;
+    }
+
+  }
+
+}
+.contents__regist-link {
+  box-shadow: -4px -4px #FFEC00;
+}
+
+.top-image__left__under {
+  color : #000000;
+  font-size: 26px;
+  font-family: tex gyre adventor bold
+
+}
