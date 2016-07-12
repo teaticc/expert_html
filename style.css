@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -128,6 +127,10 @@ div.top-image__big__arrow {
   width: 910px;
   position: absolute;
   top: 305px; }
+  div.top-image__big__arrow:after {
+    content: '';
+    display: block;
+    clear: both; }
 
 .top-image__big__arrow__left {
   margin-left: 40px;
@@ -171,6 +174,10 @@ div.top-image__big__arrow {
   .top-menu__top {
     height: 54px;
     z-index: 1; }
+    .top-menu__top:after {
+      content: '';
+      display: block;
+      clear: both; }
     .top-menu__top__title {
       font-size: 80px;
       position: absolute;
@@ -185,6 +192,10 @@ div.top-image__big__arrow {
       .top-menu__top__link p img {
         width: 12px;
         height: 12px; }
+  .top-menu__under:after {
+    content: '';
+    display: block;
+    clear: both; }
   .top-menu__under__sentence {
     margin: 40px 0 40px 40px;
     float: left;
@@ -200,6 +211,10 @@ div.top-image__big__arrow {
       color: #d3d3d3;
       font-family: texgyreadventor-regular;
       margin-bottom: 15px; }
+    .top-menu__under__tag ul:after {
+      content: '';
+      display: block;
+      clear: both; }
     .top-menu__under__tag ul li {
       float: left;
       height: 60px;
@@ -220,12 +235,27 @@ div.top-image__big__arrow {
         border: none;
         margin-left: 0; }
 
-div.contents {
-  color: blue;
-  font-family: "ＭＳ Ｐゴシック",fantasy; }
-
-h2 {
-  text-shadow: -2px -2px yellow; }
+.contents__logo:after {
+  content: '';
+  display: block;
+  clear: both; }
+.contents__logo .contents__logol {
+  float: left; }
+  .contents__logo .contents__logol p.contents__logol__1 {
+    font-size: 20px; }
+  .contents__logo .contents__logol p.contents__logol__2 {
+    font-size: 50px; }
+.contents__logo .contents__logor {
+  float: right; }
+  .contents__logo .contents__logor p.contents__logor__1 {
+    font-size: 30px; }
+  .contents__logo .contents__logor p.contents__logor__2 {
+    text-shadow: -2px -2px yellow;
+    margin: 80px 80px;
+    height: 70px;
+    width: 526px;
+    font-size: 70px;
+    font-family: texgyreadventor-bold; }
 
 .contents__regist-link {
   box-shadow: -4px -4px #FFEC00; }

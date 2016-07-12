@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
   font-family: "texgyreadventor-bold";
   src: url('fonts/texgyreadventor-bold.otf');
   font-family: "texgyreadventor-regular";
@@ -43,6 +43,7 @@ div.top-image__left__under p{
 
 
 div.top-image__big__arrow {
+  @include clearfix;
   z-index: 1;
   width: 910px;
   position: absolute;
@@ -95,6 +96,7 @@ div.top-image__big__arrow {
   z-index: 0;
   position: relative;
   &__top {
+    @include clearfix;
     height:54px;
     z-index: 1;
     &__title {
@@ -118,6 +120,7 @@ div.top-image__big__arrow {
   }
   &__under{
     // position: relative;
+    @include clearfix;
     &__sentence{
       margin: 40px 0 40px 40px;
       float: left;
@@ -140,6 +143,7 @@ div.top-image__big__arrow {
         }
         ul{
             // position: relative;
+            @include clearfix;
           li{
             float: left;
             height: 60px;

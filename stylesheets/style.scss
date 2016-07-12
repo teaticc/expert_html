@@ -1,9 +1,10 @@
 @charset "utf-8";
 // ===================================================================
 // 各ファイルのインポート
-@import "reset";
-@import "header";
-@import "contents";
-@import "footer";
 // ===================================================================
 
+@import "./reset";
+@import "./mixin/clearfix";
+@import "./modules/header";
+@import "./modules/contents";
+@import "./modules/footer";
