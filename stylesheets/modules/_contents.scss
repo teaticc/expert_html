@@ -1,43 +1,106 @@
-
 .contents__logo{
   @include clearfix;
-  .contents__logol{
-   float: left;
-   p.contents__logol__1{
-    font-size: 20px;
+  margin-left: 60px;
 
+  .contents__logo__l{
+    margin-top: 30px;
+   float: left;
+   font-family: texgyreadventor-regular;
+   p.contents__logo__l__1{
+    font-size: 20px;
    }
-   p.contents__logol__2{
+   p.contents__logo__l__2{
+    margin-top: 21px;
     font-size: 50px;
    }
   }
-  .contents__logor{
-    float: right;
-    
-
-    p.contents__logor__1{
+  .contents__logo__r{
+    float: left;
+    margin-left: 15px;
+    margin-top: 35px;
+    p.contents__logo__r__1{
+      color: brown;
       font-size: 30px;
     }
-
-    p.contents__logor__2 {
+    p.contents__logo__r__2 {
      text-shadow: -2px -2px yellow;
-     margin: 80px 80px;
      height: 70px;
      width: 526px;
      font-size: 70px;
      font-family: texgyreadventor-bold;
-    }
+     }
+  }
+}
 
+.contents__main{
+  margin-top: 80px;
+  &__product{
+    width: 340px;
+    height: 315px;
+    padding: 8px;
+    div{
+      border: 1px solid #f1f1f1;
+      white-space: nowrap;
+      // text-overflow: ellipsis;
+      overflow: hidden;
+      width: 340px;
+      img{
+        height: 240px;
+      }
+      h3{
+        font-size: 16px;
+        color: #413531;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 16px;
+        font-family: helvetica-bold;
+      }
+      p{
+        font-size: 16px;
+        color: #685f5c;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        font-family: helvetica;
+      }
+    }
+  }
+}
+
+.contents__more{
+  margin: 70px auto 190px;
+  width: 260px;
+  height: 55px;
+  background-color: #F0F5F7;
+  &__logo{
+    font-size: 18px;
+    font-family: texgyreadventor-regular;
+    color: #111111;
+    text-align:center;
+    line-height: 55px;
+   }
   }
 
-}
-.contents__regist-link {
-  box-shadow: -4px -4px #FFEC00;
+.contents__lets{
+  font-size: 50px;
+  font-family: texgyreadventor-bold;
+  color:#0E0E0E;
+  margin: 190px 0 40px;
+  text-align: center;
 }
 
-.top-image__left__under {
-  color : #000000;
-  font-size: 26px;
-  font-family: tex gyre adventor bold
+.contents__regist-link {
+  box-shadow: -4px -4px #FFEC00;
+  width: 315px;
+  height: 70px;
+  font-family: texgyreadventor-regular;
+  background-color: black;
+  font-size: 18px;
+  margin: 0 auto 160px;
+  text-align:center;
+  line-height: 70px;
+  a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+   }
 
 }
