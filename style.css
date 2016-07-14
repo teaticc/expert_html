@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "texgyreadventor-bold";
+  src: url("fonts/texgyreadventor-bold.otf");
+  font-family: "texgyreadventor-regular";
+  src: url("texgyreadventor-regular.otf");
+  font-family: "FreestyleScriptStd";
+  src: url("FreestyleScriptStd.otf"); }
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -87,13 +94,6 @@ hr {
 input, select {
   vertical-align: middle; }
 
-@font-face {
-  font-family: "texgyreadventor-bold";
-  src: url("fonts/texgyreadventor-bold.otf");
-  font-family: "texgyreadventor-regular";
-  src: url("texgyreadventor-regular.otf");
-  font-family: "FreestyleScriptStd";
-  src: url("FreestyleScriptStd.otf"); }
 header {
   margin: 0 auto;
   width: 1440px;
@@ -331,7 +331,7 @@ div.top-image__big__arrow {
 
 footer {
   height: 110px;
-  background-color: #ffec00;
+  background-color: #FFEC00;
   font-size: 12px;
   font-family: texgyreadventor-bold;
   padding-top: 50px;

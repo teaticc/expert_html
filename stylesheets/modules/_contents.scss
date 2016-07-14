@@ -79,7 +79,7 @@
   &__logo{
     font-size: 18px;
     font-family: texgyreadventor-regular;
-    color: #111111;
+    color: $mainBlack;
     text-align:center;
     line-height: 55px;
    }
@@ -94,7 +94,7 @@
 }
 
 .contents__regist-link {
-  box-shadow: -4px -4px #FFEC00;
+  box-shadow: -4px -4px $mainYellow;
   width: 315px;
   height: 70px;
   font-family: texgyreadventor-regular;
@@ -104,7 +104,7 @@
   text-align:center;
   line-height: 70px;
   a:link {
-    color: #FFFFFF;
+    color: $mainWhite;
     text-decoration: none;
    }
 

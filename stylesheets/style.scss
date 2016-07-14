@@ -3,7 +3,9 @@
 // 各ファイルのインポート
 // ===================================================================
 
+@import "./config/font";
 @import "./reset";
+@import "./config/_variables";
 @import "./mixin/clearfix";
 @import "./modules/header";
 @import "./modules/contents";
