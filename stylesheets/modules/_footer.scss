@@ -1,3 +1,31 @@
 footer{
-  font-size: 30px;
+  height: 110px;
+  background-color: #ffec00;
+  @include clearfix;
+  font-size: 12px;
+  font-family: texgyreadventor-bold;
+  // line-height: 110px;
+  // padding: 50px 170px;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.foot-link{
+  float:left;
+  margin-left:170px;
+  li{
+    float: left;
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid;
+    &:last-child{
+      border:none;
+    }
+  }
+}
+
+.copyright{
+  float:right;
+  margin-right: 170px;
 }
