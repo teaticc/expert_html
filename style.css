@@ -273,7 +273,6 @@ div.top-image__big__arrow {
     .contents__main__product div {
       border: 1px solid #f1f1f1;
       white-space: nowrap;
-      text-overflow: ellipsis;
       overflow: hidden;
       width: 340px; }
       .contents__main__product div img {
@@ -292,13 +291,38 @@ div.top-image__big__arrow {
         margin-bottom: 20px;
         font-family: helvetica; }
 
-.contents__regist-link {
-  box-shadow: -4px -4px #FFEC00; }
+.contents__more {
+  margin: 70px auto 190px;
+  width: 260px;
+  height: 55px;
+  background-color: #F0F5F7; }
+  .contents__more__logo {
+    font-size: 18px;
+    font-family: texgyreadventor-regular;
+    color: #111111;
+    text-align: center;
+    line-height: 55px; }
 
-.top-image__left__under {
-  color: #000000;
-  font-size: 26px;
-  font-family: tex gyre adventor bold; }
+.contents__lets {
+  font-size: 50px;
+  font-family: texgyreadventor-bold;
+  color: #0E0E0E;
+  margin: 190px 0 40px;
+  text-align: center; }
+
+.contents__regist-link {
+  box-shadow: -4px -4px #FFEC00;
+  width: 315px;
+  height: 70px;
+  font-family: texgyreadventor-regular;
+  background-color: black;
+  font-size: 18px;
+  margin: 0 auto 160px;
+  text-align: center;
+  line-height: 70px; }
+  .contents__regist-link a:link {
+    color: #FFFFFF;
+    text-decoration: none; }
 
 footer {
   font-size: 30px; }
